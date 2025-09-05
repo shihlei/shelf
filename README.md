@@ -1,3 +1,3 @@
-My learning node 
+My learning note 
 
 
