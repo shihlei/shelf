@@ -100,7 +100,9 @@ console.log(counter2.increment()); // 1
 
  ```
 
-**Arrow Syntax:** The other common way to declare functions is with arrow syntax. In fact, on many projects, it is the preferred syntax.
+**Using "arrow" syntax to declare function:**
+
+The other common way to declare functions is with arrow syntax. In fact, on many projects, it is the preferred syntax.
 - Basic Syntax
   ```js
   const f = (a, b) => {
