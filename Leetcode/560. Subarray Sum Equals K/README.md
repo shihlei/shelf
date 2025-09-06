@@ -1,21 +1,19 @@
 ## 560. Subarray Sum Equals K
 🔗 [Link](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 
-Brute Force: Check all the possible subarray. Time complexity will be O(n^2)
-
 **📝 Topic: HashMap, Array**
 
 Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
 
 A subarray is a contiguous non-empty sequence of elements within an array.
 
-Example 1:
+**Example 1:**
 
 Input: nums = [1,1,1], k = 2
 
 Output: 2
 
-Example 2:
+**Example 2:**
 
 Input: nums = [1,2,3], k = 3
 
@@ -32,6 +30,8 @@ Verify the constraints and ask questions. Can also go through some test case
 
 ### Match
 See if this problem matches any data structures, algorithms
+
+Brute Force: Check all the possible subarray. Time complexity will be O(n^2)
 
 Use PrefixSum with a HashMap that counts how many times each prefix sum has appeared:
 - Prefix sum up to index i is nums[0] + … + nums[i].
