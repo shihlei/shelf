@@ -1,5 +1,5 @@
 ## 560. Subarray Sum Equals K
-[Link](https://leetcode.com/problems/subarray-sum-equals-k/description/)
+🔗 [Link](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 
 Brute Force: Check all the possible subarray. Time complexity will be O(n^2)
 
@@ -21,6 +21,7 @@ Input: nums = [1,2,3], k = 3
 
 Output: 2
 
+</br>
 
 ### Understand
 Verify the constraints and ask questions. Can also go through some test case
