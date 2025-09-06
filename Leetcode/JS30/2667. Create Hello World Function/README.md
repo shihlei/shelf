@@ -1,4 +1,5 @@
-## 560. Subarray Sum Equals K
+## 2667. Create Hello World Function
+
 🔗 [Link](https://leetcode.com/problems/create-hello-world-function/description/)
 
 **📝 Topic: JavaScript Function**
