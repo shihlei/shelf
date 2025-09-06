@@ -41,29 +41,32 @@ See the js code file
 
 **Using "function" syntax to declare function:**
   - Basic
-    ```bash
+    ```js
     function f(a, b) {
       const sum = a + b;
       return sum;
     }
     console.log(f(3, 4)); // 7
     ```
+
   - Anonymous Function
-    ```bash
+    ```js
     var f = function(a, b) {
       const sum = a + b;
       return sum;
     }
     console.log(f(3, 4)); // 7
     ```
+
   - Immediately Invoked Function Expression (IIFE): create a function and immediately execute it in Javascript
-    ```bash
+    ```js
     const result = (function(a, b) {
       const sum = a + b;
       return sum;
     })(3, 4);
     console.log(result); // 7
     ```
+
   - Function Hoisting: a function can sometimes be used before it is initialized, only if you declare functions with the function syntax
 
 
@@ -71,7 +74,7 @@ See the js code file
 
 Functions in JavaScript have access to variables outside of their scope.
 
- ```bash
+ ```js
 function createCounter(){
   let value = 0; // Hidden State
 
@@ -99,15 +102,16 @@ console.log(counter2.increment()); // 1
 
 **Arrow Syntax:** The other common way to declare functions is with arrow syntax. In fact, on many projects, it is the preferred syntax.
 - Basic Syntax
-  ```bash
+  ```js
   const f = (a, b) => {
       const sum = a + b;
       return sum;
   };
   console.log(f(3, 4)); // 7
   ```
+
 - Omit Return
-  ```bash
+  ```js
   const f = (a, b) =>  a + b;
   console.log(f(3, 4)); // 7
   ```
