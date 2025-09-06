@@ -1,4 +1,5 @@
 ## 560. Subarray Sum Equals K
+[Link](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 
 Brute Force: Check all the possible subarray. Time complexity will be O(n^2)
 
@@ -52,11 +53,11 @@ Compute prefix sums while iterating once, and count matches [currentSum − k]:
 
 Map starts as {0:1}, sum = 0, ans = 0
 
-See 1: sum=1, need=−1, freq=0, ans=0, map becomes {0:1, 1:1}
+See 1: currentSum=1, need=1-2=−1, ans=0, map becomes {0:1, 1:1}
 
-See 1: sum=2, need=0, freq=1, ans=1, map becomes {0:1, 1:1, 2:1}
+See 1: currentSum=2, need=2-2=0, ans=1, map becomes {0:1, 1:1, 2:1}
 
-See 1: sum=3, need=1, freq=1, ans=2, map becomes {0:1, 1:1, 2:1, 3:1}
+See 1: currentSum=3, need=3-2=1, ans=1+1=2, map becomes {0:1, 1:1, 2:1, 3:1}
 
 Answer is 2.
 
