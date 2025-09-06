@@ -2,7 +2,7 @@
 
 Brute Force: Check all the possible subarray. Time complexity will be O(n^2)
 
-📝 Topic: HashMap, Array
+**📝 Topic: HashMap, Array**
 
 Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
 
@@ -20,6 +20,7 @@ Input: nums = [1,2,3], k = 3
 
 Output: 2
 
+
 ### Understand
 Verify the constraints and ask questions. Can also go through some test case
 
@@ -32,8 +33,8 @@ See if this problem matches any data structures, algorithms
 
 Use PrefixSum with a HashMap that counts how many times each prefix sum has appeared:
 - Prefix sum up to index i is nums[0] + … + nums[i].
-- 📍 If currentSum is the running prefix sum, any earlier prefix sum equal to currentSum − k marks a subarray that sums to k.
-- Store counts of prefix sums in a HashMap so you can add freq[currentSum − k] to the answer in O(1).
+- If currentSum is the running prefix sum, **any earlier prefix sum equal to [currentSum − k] marks a subarray that sums to k.**
+- Store counts of prefix sums in a HashMap so you can add **freq[currentSum − k]** to the answer in O(1).
 
 
 ### Plan
