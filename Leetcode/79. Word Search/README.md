@@ -26,7 +26,8 @@ Verify the constraints and ask questions. Can also go through some test case
 1. Can the input board or word be empty?
 No, the smallest board would be 1 row and 1 column ; the shortest word would be 1 character long
 2. Is the word length possibly longer then board? Yes
-3. Can a character visit twice? No
+3. Can a character visit twice? No, The same letter cell may not be used more than once.
+
 
 ### Match
 See if this problem matches any data structures, algorithms
