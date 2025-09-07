@@ -3,7 +3,7 @@
 - 做題目時，需要判斷一個元素是否出現過的場景，應該要先想到Hash
 - 26 letters ⇒ use hash array to count how many time each letter show up
 
-# HashMap
+### HashMap
 
 ```java
 Map<Integer, Integer> map = new HashMap<Integer, Integer>()
@@ -19,7 +19,7 @@ map.containsKey(key);
 map.containsValue(value);
 ```
 
-# HashSet
+### HashSet
 ```java
 //set (can't repeat)
 Set<Integer> set = new HashSet<Integer>();
@@ -29,7 +29,7 @@ set.contains(item);
 set.size();
 ```
 
-# HashTable
+### HashTable
 ```java
 Hashtable<Integer,String> angularDevepolers = new Hashtable<Integer,String>();
  
