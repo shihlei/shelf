@@ -19,7 +19,7 @@ Input: nums = [1,2,3], k = 3
 
 Output: 2
 
-</br>
+---
 
 ### Understand
 Verify the constraints and ask questions. Can also go through some test case
