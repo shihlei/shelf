@@ -119,7 +119,11 @@ The other common way to declare functions is with arrow syntax. In fact, on many
   ```
 
 
+### Evaluate
 
+Time Complexity: O(1)
+
+Space Complexity: O(1)
 
 
 
