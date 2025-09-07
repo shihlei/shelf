@@ -64,6 +64,6 @@ Go throgh the code step by step with examples and check any mistakes
 
 m = rows, n = cols, L = word length.
 
-Time Complexity: O(n * m * 4* 3^(L-1)) = O(m·n·3^L)
+Time Complexity: O(n * m * 3^(L-1)) = O(m·n·3^L) The choices are reduced into 3 (since we won't go back to where we come from)
 
 Space Complexity: O(L) Recursion depth is at most L
