@@ -1,6 +1,6 @@
-## 2620. Counter
+## 2665. Counter II
 
-🔗 [Link](https://leetcode.com/problems/counter/description/)
+🔗 [Link](https://leetcode.com/problems/counter-ii/description/)
 
 **📝 Topic: Closures, Object and Class**
 
