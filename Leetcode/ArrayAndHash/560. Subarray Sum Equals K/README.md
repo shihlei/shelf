@@ -42,6 +42,8 @@ Use PrefixSum with a HashMap that counts how many times each prefix sum has appe
 ### Plan
 Walk through a implementation with an existing diagram
 
+**Approach**
+
 Compute prefix sums while iterating once, and count matches [currentSum − k]:
 1. Initialize a map with {0: 1}. This represents an empty prefix before the array starts, so subarrays starting at index 0 can be counted.
 2. Iterate through nums:
