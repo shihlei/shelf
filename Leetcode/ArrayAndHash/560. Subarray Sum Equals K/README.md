@@ -22,14 +22,14 @@ Output: 2
 ---
 
 ### Understand
-Verify the constraints and ask questions. Can also go through some test case
+_Verify the constraints and ask questions. Can also go through some test case_
 
 1. Can this input be ampty? -> No, at lease one number inside
 2. Can the number be negative? -> Yes
 3. Any requirement on time/space complexity? -> O(n)
 
 ### Match
-See if this problem matches any data structures, algorithms
+_See if this problem matches any data structures, algorithms_
 
 Brute Force: Check all the possible subarray. Time complexity will be O(n^2)
 
@@ -40,7 +40,7 @@ Use PrefixSum with a HashMap that counts how many times each prefix sum has appe
 
 
 ### Plan
-Walk through a implementation with an existing diagram
+_Walk through a implementation with an existing diagram_
 
 **Approach**
 
@@ -66,10 +66,10 @@ Answer is 2.
 
 
 ### Implement
-See the code file
+_See the code file_
 
 ### Review
-Go throgh the code step by step with examples and check any mistakes
+_Go throgh the code step by step with examples and check any mistakes_
 
 
 ### Evaluate
