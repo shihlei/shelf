@@ -61,9 +61,9 @@ Keep standard binary search, but at each step identify which half is sorted, the
 2. If nums[mid] == target, return mid.
 3. Determine the sorted half:
    - If nums[l] <= nums[mid], the left half [l..mid] is sorted.
-     If nums[l] <= target < nums[mid], move r = mid - 1, else move l = mid + 1.
+      - If nums[l] <= target < nums[mid], move r = mid - 1, else move l = mid + 1.
    - Else the right half [mid..r] is sorted.
-     If nums[mid] < target <= nums[r], move l = mid + 1, else move r = mid - 1.
+      - If nums[mid] < target <= nums[r], move l = mid + 1, else move r = mid - 1.
 
 4. If the loop ends, return -1.
 
