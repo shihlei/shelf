@@ -21,7 +21,7 @@ Output: true
 ----
 
 ### Understand
-Verify the constraints and ask questions. Can also go through some test case
+_Verify the constraints and ask questions. Can also go through some test case_
 
 1. Can the input board or word be empty?
 No, the smallest board would be 1 row and 1 column ; the shortest word would be 1 character long
@@ -30,14 +30,14 @@ No, the smallest board would be 1 row and 1 column ; the shortest word would be 
 
 
 ### Match
-See if this problem matches any data structures, algorithms
+_See if this problem matches any data structures, algorithms_
 
 Backtracking:
 
 Backtracking is a general way to search through possibilities while respecting constraints. Think of it as: try a choice, explore deeper, and if it fails, undo the choice and try the next one.
 
 ### Plan
-Walk through a implementation with an existing diagram
+_Walk through a implementation with an existing diagram_
 
 **Approach**
 
@@ -54,10 +54,10 @@ Use DFS with backtracking. From each cell that matches word[cur], try the 4 neig
  
 
 ### Implement
-See the code file
+_See the code file_
 
 ### Review
-Go throgh the code step by step with examples and check any mistakes
+_Go throgh the code step by step with examples and check any mistakes_
 
 
 ### Evaluate
