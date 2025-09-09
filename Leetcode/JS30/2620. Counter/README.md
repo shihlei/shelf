@@ -25,10 +25,6 @@ Output: [-2,-1,0,1,2]
 Explanation: counter() initially returns -2. Then increases after each sebsequent call.  
 
 
-### Implement
-See the js code file
-
-
 ### 💫 JavaScript Function Closures
 A closure is a function plus the variables from its surrounding scope. The inner function can still read or update those variables after the outer function has returned. Variables are captured by reference, so their latest value is seen on each call.
 
@@ -55,6 +51,10 @@ If n = 5, calls return: 5, 6, 7, ....
 Start at n + 1: use return ++current.
 
 Resettable counter: return an object with methods that share the same current.
+
+
+### Implement
+See the js code file
 
 
 ### Evaluate
