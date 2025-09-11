@@ -74,4 +74,6 @@ return result;
 - You're explicitly stating each step: create array, loop, check condition, push if true
 - You control the iteration, condition checking, and result building
 
+### Implement
+See the js code file
 
