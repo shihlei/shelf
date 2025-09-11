@@ -2,7 +2,7 @@
 
 🔗 [Link](https://leetcode.com/problems/filter-elements-from-array/description/)
 
-**📝 Topic: filter(), callback**
+**📝 Topic: filter(), callback, functional programming**
 
 Given an integer array arr and a filtering function fn, return a filtered array filteredArr.
 
