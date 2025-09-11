@@ -40,6 +40,20 @@ Falsey values such as 0 should be filtered out
 
 ---
 
+```
+Programming Paradigms
+│
+├── IMPERATIVE
+│   ├── Procedural (C, Pascal)
+│   ├── Object-Oriented (Java, C++)
+│   └── Assembly language
+│
+└── DECLARATIVE
+    ├── Functional Programming ← map(), filter(), reduce()
+    ├── Logic Programming (Prolog)
+    └── Query Languages (SQL, GraphQL)
+```
+
 ### Fundamental programming (broad approaches to programming)
 
 **Declarative Programming**
