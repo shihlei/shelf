@@ -40,7 +40,7 @@ Falsey values such as 0 should be filtered out
 
 ---
 
-### Fundamental programming
+### Fundamental programming (broad approaches to programming)
 
 **Declarative Programming**
 
