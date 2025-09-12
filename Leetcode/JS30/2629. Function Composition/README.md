@@ -51,3 +51,7 @@ The key difference between reduce() and reduceRight() is the direction they proc
 - reduce(): Processes left → right, accumulates from first to last
 - reduceRight(): Processes right → left, accumulates from last to first
 
+
+### Implement
+See the js code file
+
