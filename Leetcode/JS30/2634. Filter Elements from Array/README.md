@@ -54,7 +54,7 @@ Programming Paradigms
     └── Query Languages (SQL, GraphQL)
 ```
 
-### Fundamental programming (broad approaches to programming)
+### 💫 Fundamental programming (broad approaches to programming)
 
 **Declarative Programming**
 

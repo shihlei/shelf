@@ -26,7 +26,7 @@ Starting with x = 4.
 
 ----
 
-### Function Composition
+### 💫 Function Composition
 Function Composition is the process of combining two or more functions to produce a new function. When you compose functions f and g, you create a new function that applies g first, then applies f to the result.
 
 Mathematical notation: (f ∘ g)(x) = f(g(x))

@@ -44,7 +44,7 @@ Programming Paradigms
     └── Query Languages (SQL, GraphQL)
 ```
 
-### Functional programming
+### 💫 Functional programming
 - You're programming with functions as your primary tool, focusing on transforming data rather than changing state!
 - map(), filter(), and reduce() are core functional programming methods.
 

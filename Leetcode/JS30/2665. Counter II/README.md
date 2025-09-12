@@ -26,7 +26,7 @@ counter.decrement(); // 4
   ----
 
 
-### Approach 1: Closure
+### 💫 Closure
 
 We can declare a variable currentCount and set it equal to init. Then return an object with the three functions where we increment, decrement, and reset the currentCount.
 
@@ -48,7 +48,7 @@ const val = object.obj.x;
 console.log(val); // 5
 ```
 
-### Approach 2: Classes
+### 💫 Classes
 
 - You can also define classes in JavaScript. The classes's **constructor** returns an object which is an instance of that class.
 - In class, don't need "function" syntax for functions

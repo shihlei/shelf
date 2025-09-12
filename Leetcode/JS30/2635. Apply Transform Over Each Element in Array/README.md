@@ -33,7 +33,7 @@ Explanation: The function always returns 42.
 
   ----
 
-### Callback
+### 💫 Callback
 - A callback is a function you pass as an argument to another function.
 - Why Use Callbacks?
   - The simple answer is they allow you to write code that can be reused across different use-cases.
