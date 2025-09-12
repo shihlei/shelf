@@ -38,7 +38,7 @@ Output: [1,2]
 _Verify the constraints and ask questions. Can also go through some test case_
 
 1. Can the input linkedList be empty? No
-2. K will be <= nums.length
+2. 1 <= K will be <= nums.length
 3. Any requirement on time/space complexity?
 
 ### Match
