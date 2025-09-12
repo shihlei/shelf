@@ -7,6 +7,7 @@
 // Outer function is like a constructor
 var createCounter = function(init) {
     // init and count are the hidden state that can be access
+    // init is a parameter of the constructor method. Parameters only exist within the scope of that specific method
     let count = init;
 
     function increment(){

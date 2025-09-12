@@ -30,12 +30,7 @@ Explanation:
 
 Any arguments could be passed to the function but it should still always return "Hello World".
 
-</br>
-
-### Implement
-See the js code file
-
-</br>
+----
 
 ### 💫 JavaScript functions
 
@@ -70,6 +65,25 @@ See the js code file
   - Function Hoisting: a function can sometimes be used before it is initialized, only if you declare functions with the function syntax
 
 
+**Using "arrow" syntax to declare function:**
+
+The other common way to declare functions is with arrow syntax. In fact, on many projects, it is the preferred syntax.
+- Basic Syntax
+  ```js
+  const f = (a, b) => {
+      const sum = a + b;
+      return sum;
+  };
+  console.log(f(3, 4)); // 7
+  ```
+
+- Omit Return
+  ```js
+  const f = (a, b) =>  a + b;
+  console.log(f(3, 4)); // 7
+  ```
+
+
 **Closures!**
 
 Functions in JavaScript have access to variables outside of their scope.
@@ -100,23 +114,8 @@ console.log(counter2.increment()); // 1
 
  ```
 
-**Using "arrow" syntax to declare function:**
-
-The other common way to declare functions is with arrow syntax. In fact, on many projects, it is the preferred syntax.
-- Basic Syntax
-  ```js
-  const f = (a, b) => {
-      const sum = a + b;
-      return sum;
-  };
-  console.log(f(3, 4)); // 7
-  ```
-
-- Omit Return
-  ```js
-  const f = (a, b) =>  a + b;
-  console.log(f(3, 4)); // 7
-  ```
+### Implement
+See the js code file
 
 
 ### Evaluate
@@ -124,6 +123,3 @@ The other common way to declare functions is with arrow syntax. In fact, on many
 Time Complexity: O(1)
 
 Space Complexity: O(1)
-
-
-
