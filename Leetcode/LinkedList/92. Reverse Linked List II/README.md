@@ -37,7 +37,8 @@ _Verify the constraints and ask questions. Can also go through some test case_
 _See if this problem matches any data structures, algorithms_
 
 - Dummy Node:
-    - Make things easier, so does not need to handle edge case
+    - Without dummy: If left = 1, we need to return a new head (complex edge case)
+    - With dummy: Always return dummy.next, regardless of where reversal starts
 
 
 ### Plan
