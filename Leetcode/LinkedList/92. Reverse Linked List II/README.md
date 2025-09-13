@@ -58,6 +58,7 @@ Reverse the Sublist:
     - After reversal: prev points to the new head of reversed section
 
 Reconnect the List:
+
 4. Update connections:
     - Connect the node before left to the new head of reversed section
     - Connect the tail of reversed section to the node after right
