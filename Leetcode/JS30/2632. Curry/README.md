@@ -2,7 +2,7 @@
 
 🔗 [Link](https://leetcode.com/problems/curry/description/)
 
-**📝 Topic: **
+**📝 Topic: Currying**
 
 Given a function fn, return a curried version of that function.
 
