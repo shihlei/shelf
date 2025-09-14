@@ -74,8 +74,6 @@ _Go throgh the code step by step with examples and check any mistakes_
 
 ### Evaluate
 
+Time Complexity: O(n), n is the number of node in linkedlist
 
-
-Time Complexity: 
-
-Space Complexity: 
+Space Complexity: O(1)
