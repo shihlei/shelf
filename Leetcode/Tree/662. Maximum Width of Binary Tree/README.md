@@ -1,4 +1,4 @@
-## 92. Reverse Linked List II
+## 662. Maximum Width of Binary Tree
 
 🔗 [Link](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)
 
