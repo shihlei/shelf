@@ -11,12 +11,13 @@ var timeLimit = function(fn, t) {
             // callback
             const id = setTimeout(() => reject("Time Limit Exceeded"), t); // first var of setTimeout only accept function
 
+            // solution 1:
             fn(...args)
                 .then((res) => resolve(res))
                 .catch((err) => reject(err))
                 .finally(() => clearTimeout(id));
 
-            // Async/Await + Clearing Timeout
+            // solution 2: Async/Await + Clearing Timeout
             try{
                 const res = await fn(...args);
                 resolve(res);
