@@ -17,15 +17,13 @@ A solution that runs in O(n) time is trivial, can you write an algorithm that ru
 
 **Example 1:**
 
-Input: nums = [3,4,5,6,1,2], target = 1
-
-Output: 4
+> Input: nums = [3,4,5,6,1,2], target = 1  
+Output: 4  
 
 **Example 2:**
 
-Input: nums = [3,5,6,0,1,2], target = 4
-
-Output: -1
+> Input: nums = [3,5,6,0,1,2], target = 4  
+Output: -1  
 
 **Constraints:**
 
