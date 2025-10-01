@@ -46,14 +46,13 @@ _Verify the constraints and ask questions. Can also go through some test case_
 ### Match
 _See if this problem matches any data structures, algorithms_
 
-Idea:
 1.  Divide and conquer: Merge lists in pairs like merge sort. After log k rounds you get one list.
 2.  Or using PriorityQueue minheap: min value at the top
 
 ### Plan
 _Walk through a implementation with an existing diagram_
 
-**Approach**
+Idea:
 
 Using Divide and conquer here to merge lists in pairs like merge sort. After log k rounds you get one list:
 1. Walk lists two at a time: i and i+1.
