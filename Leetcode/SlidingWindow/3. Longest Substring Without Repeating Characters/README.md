@@ -2,10 +2,9 @@
 
 🔗 [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?envType=company&envId=tiktok&favoriteSlug=tiktok-thirty-days)
 
-**📝 Topic: Array, HashSet**
+**📝 Topic: Sliding window, HashSet**
 
 Given a string s, find the length of the longest substring without duplicate characters.
-
 
 **Example 1:**
 
