@@ -102,11 +102,9 @@ Left height (from node 2) = 2
 Right height (from node 3) = 1
 Diameter through this node = 2 + 1 = 3 ✓
 
-* The answer is 3 (path: 4→2→1→3 or 5→2→1→3)
+The answer is 3 (path: 4→2→1→3 or 5→2→1→3)
 
 ```
-
-
 
 ### Evaluate
 
