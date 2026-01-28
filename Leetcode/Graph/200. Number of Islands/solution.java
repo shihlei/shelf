@@ -1,6 +1,4 @@
 class Solution {
-    private static int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-
     public int numIslands(char[][] grid) {
         int rows = grid.length;
         int cols = grid[0].length;
@@ -20,6 +18,7 @@ class Solution {
     }
 
     private void dfs(char[][] grid, int r, int c){
+        // Check boundary
         if(r < 0 || c < 0 || r >= grid.length || c >= grid[0].length || grid[r][c] == '0'){
             return;
         }
@@ -28,8 +27,9 @@ class Solution {
         grid[r][c] = '0';
 
         // check 4 firsctions
-        for(int[] d: directions){
-            dfs(grid, r + d[0], c + d[1]);
-        }
+        dfs(grid, r, c + 1);
+        dfs(grid, r + 1, c);
+        dfs(grid, r, c - 1);
+        dfs(grid, r - 1, c);
     }
 }
