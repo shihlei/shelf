@@ -43,7 +43,7 @@ Output: []
 _Verify the constraints and ask questions. Can also go through some test case_
 
 1. Can the tree be empty (null)? No, at least 1 node
-3. Any requirement on time/space complexity? 
+2. Any requirement on time/space complexity? 
 
 ### Match
 _See if this problem matches any data structures, algorithms_
@@ -70,9 +70,6 @@ _Walk through a implementation with an existing diagram_
         - Process all nodes at the current level with for loop
         - Traverse all the nodes in HashMap, and add unvisited neighbors to queue
     - Increase the `currentLevel`
-
-Start from the target node. Traverse exactly k steps away and collect all nodes at that level
-Create a visited set to track visited node.
 
 ### Implement
 _See the solution file_
