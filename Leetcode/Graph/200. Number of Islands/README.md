@@ -31,6 +31,7 @@ _Verify the constraints and ask questions. Can also go through some test case_
 1. Can the input board or word be empty? No, the smallest board would be 1 row and 1 column
 2. What to return if there is no island? 0
 3. Do diagonal connections between lands count towards forming an island? No
+4. C -> Can the pointers be null? Yes, check in c code for grid and the pointers to number of rows and cols
 
 
 ### Match
@@ -45,9 +46,7 @@ Depth First Search (DFS)
 _Walk through a implementation with an existing diagram_
 
 We can use the DFS algorithm to traverse each group independently: 
-1. Init directions and result:
-    - Define directions array for easy 4-directional movement
-    - Initialize island counter
+1. Initialize island counter
 2. We iterate through each cell of the grid. When we encounter a 1, we perform a DFS starting at that cell and recursively visit every other 1 that is reachable. we increment our ans counter because we've found a new island. 
 3. DFS traversal:
     - Base case: Return if out of bounds or current cell is water ('0')
